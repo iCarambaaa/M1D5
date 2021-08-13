@@ -23,12 +23,23 @@ function crazySum (i1, i2) {
       let  sum = (i1 + i2)*3;
     } else {
     let sum = i1 +i2;
-}}
+}
+    return sum;
+}
 
 /* EXERCISE 3
 Write a function "crazyDiff" that computes the absolute difference between a given number and 19. 
 It should return triple their absolute difference if the given number is greater than 19.
 */
+
+function crazyDiff (num1, num2 = 19) {
+    if (num1 >= num2) {
+        let abs = (Math.abs(num1 - num2))*3
+    } else {
+         let abs = Math.abs(num1 - num2);
+    }
+    return abs;
+}
 
 /* EXERCISE 4
 Write a function "boundary" which accept an integer n and returns true if n is within 20 and 100 (included) or if it's equal to 400.
