@@ -11,7 +11,7 @@ Write a function "area" which receives 2 parameters (l1,l2) and calculates the a
 */
 
 function area (l1, l2) {
-   a = l1 * l2; 
+   let a = l1 * l2; 
 }
 
 /* EXERCISE 2
@@ -20,12 +20,10 @@ Write a function "crazySum" which receives two integers. It should return the su
 
 function crazySum (i1, i2) {
     if (i1 === i2) {
-        sum =
-    }
-    
-    
-    sum = i1 +i2;
-}
+      let  sum = (i1 + i2)*3;
+    } else {
+    let sum = i1 +i2;
+}}
 
 /* EXERCISE 3
 Write a function "crazyDiff" that computes the absolute difference between a given number and 19. 
