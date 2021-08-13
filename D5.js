@@ -91,7 +91,13 @@ function reverseString (str) {
 Write a function "upperFirst" to capitalize the first letter of each word of a given string passed as a parameter.
 */
 
-/* WRITE YOUR CODE HERE */
+function upperFirst (str) {
+    let words = str.split(" ");
+    for (let i = 0; i < words.length; i++) {
+        words[i] = words[i][0].toUpperCase() + words[i].substr(1);
+    }
+    words.join(" ");
+}
 
 /* EXERCISE 9
 Write a function "cutString" to create a new string without the first and last character of a given string.
