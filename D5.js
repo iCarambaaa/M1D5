@@ -103,13 +103,18 @@ function upperFirst (str) {
 Write a function "cutString" to create a new string without the first and last character of a given string.
 */
 
-/* WRITE YOUR CODE HERE */
+//function cutString () {
+
+//}
 
 /* EXERCISE 10
 Write a function "giveMeRandom" which accepts a number n and returns an array containing n random numbers between 0 and 10.
 */
 
-/* WRITE YOUR CODE HERE */
+//function giveMeRandom (n) {
+  //  let rn = (n * Math.floor(Math.random() * 10));
+    //returns; 
+//}
 
 /* WHEN YOU ARE FINISHED
 Commit and push the code to your personal GitHub repository and share the link to your commit in Eduflow.
